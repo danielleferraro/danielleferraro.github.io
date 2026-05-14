@@ -9,3 +9,9 @@ title: "notes"
 - to always use branch name of master, change your git config: `usethis::use_git_config(init.defaultBranch = "main")`. check that it's changed in your terminal `git config --list`
 - `site/` is where rendered html is, but you don't make changes there (you make changes in the quarto docs), though we will rename it because GH pages only knows to look in the root directory or a folder called `docs`. Add this to _quarto.yml.
 - created a blank file called `.nojekyll` that disables some GH pages automatic formatting
+- use Build pane to build website or `quarto render`
+- Quarto Landing Page Templates
+- website title is a good place for a logo. It's also a home button.
+- sassy css (scss) allows you to write css in multiple languages (incl. Sass), not just plain css. We like Sass because it can do more. You can delete the original styles.css file if you want, but just don't reference it anywhere. 
+- quick and dirty themes (without using CSS): Bootswatch themes
+- _quarto.yml is the easiest way to change fonts universally (not in scss file)

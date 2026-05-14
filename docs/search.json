@@ -1,23 +1,23 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Danielle Ferraro",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "This is my short bio!"
   },
   {
     "objectID": "notes.html",
     "href": "notes.html",
     "title": "notes",
     "section": "",
-    "text": "don’t change index.qmd name\n_quarto.yml - structure and metadata of website\ncan use quarto preview in the terminal to check current version of site\nto rename branch name in your repo usethis::git_default_branch_rename(from = \"master\", to = \"main\")\nto always use branch name of master, change your git config: usethis::use_git_config(init.defaultBranch = \"main\"). check that it’s changed in your terminal git config --list\nsite/ is where rendered html is, but you don’t make changes there (you make changes in the quarto docs), though we will rename it because GH pages only knows to look in the root directory or a folder called docs. Add this to _quarto.yml.\ncreated a blank file called .nojekyll that disables some GH pages automatic formatting"
+    "text": "don’t change index.qmd name\n_quarto.yml - structure and metadata of website\ncan use quarto preview in the terminal to check current version of site\nto rename branch name in your repo usethis::git_default_branch_rename(from = \"master\", to = \"main\")\nto always use branch name of master, change your git config: usethis::use_git_config(init.defaultBranch = \"main\"). check that it’s changed in your terminal git config --list\nsite/ is where rendered html is, but you don’t make changes there (you make changes in the quarto docs), though we will rename it because GH pages only knows to look in the root directory or a folder called docs. Add this to _quarto.yml.\ncreated a blank file called .nojekyll that disables some GH pages automatic formatting\nuse Build pane to build website or quarto render\nQuarto Landing Page Templates\nwebsite title is a good place for a logo. It’s also a home button.\nsassy css (scss) allows you to write css in multiple languages (incl. Sass), not just plain css. We like Sass because it can do more. You can delete the original styles.css file if you want, but just don’t reference it anywhere.\nquick and dirty themes (without using CSS): Bootswatch themes\n_quarto.yml is the easiest way to change fonts universally (not in scss file)"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "danielleferraro.github.io",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
   }
 ]

@@ -1,0 +1,19 @@
+/*-- scss:defaults --*/
+
+// Colors
+$light-purple: #E7D1FF;
+$dark-purple: #27004D;
+$pink: #ff5b92;
+$gray: #3B3B3B;
+
+// Import Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+// Update Quarto sass variables
+$navbar-bg: $dark-purple; // Background of Navbar
+$navbar-fg: $light-purple; // Text color on Navbar
+$navbar-hl: $pink;
+$body-bg: $light-purple; // Site background
+$body-color: $gray; // Text color
+$link-color: $pink; 
+

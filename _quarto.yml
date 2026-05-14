@@ -3,20 +3,21 @@ project:
   output-dir: docs
 
 website:
-  title: "danielleferraro.github.io"
+  title: "Danielle Ferraro"
   navbar:
     left:
       - href: index.qmd
         text: Home
       - about.qmd
+      - href: blog.qmd
 
 format:
   html:
-    theme:
-      - cosmo
-      - brand
-    css: styles.css
+    theme: styles.scss
+    #css: styles.css
+    mainfont: Work Sans
     toc: true
+    page-layout: full
 
 editor: visual
 
