@@ -4,3 +4,8 @@ title: "notes"
 
 - don't change index.qmd name
 - _quarto.yml - structure and metadata of website
+- can use `quarto preview` in the terminal to check current version of site
+- to rename branch name in your repo `usethis::git_default_branch_rename(from = "master", to = "main")`
+- to always use branch name of master, change your git config: `usethis::use_git_config(init.defaultBranch = "main")`. check that it's changed in your terminal `git config --list`
+- `site/` is where rendered html is, but you don't make changes there (you make changes in the quarto docs), though we will rename it because GH pages only knows to look in the root directory or a folder called `docs`. Add this to _quarto.yml.
+- created a blank file called `.nojekyll` that disables some GH pages automatic formatting

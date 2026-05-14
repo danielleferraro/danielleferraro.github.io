@@ -139,6 +139,11 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li>don’t change index.qmd name</li>
 <li>_quarto.yml - structure and metadata of website</li>
+<li>can use <code>quarto preview</code> in the terminal to check current version of site</li>
+<li>to rename branch name in your repo <code>usethis::git_default_branch_rename(from = "master", to = "main")</code></li>
+<li>to always use branch name of master, change your git config: <code>usethis::use_git_config(init.defaultBranch = "main")</code>. check that it’s changed in your terminal <code>git config --list</code></li>
+<li><code>site/</code> is where rendered html is, but you don’t make changes there (you make changes in the quarto docs), though we will rename it because GH pages only knows to look in the root directory or a folder called <code>docs</code>. Add this to _quarto.yml.</li>
+<li>created a blank file called <code>.nojekyll</code> that disables some GH pages automatic formatting</li>
 </ul>
 
 
