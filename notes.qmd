@@ -14,4 +14,5 @@ title: "notes"
 - website title is a good place for a logo. It's also a home button.
 - sassy css (scss) allows you to write css in multiple languages (incl. Sass), not just plain css. We like Sass because it can do more. You can delete the original styles.css file if you want, but just don't reference it anywhere. 
 - quick and dirty themes (without using CSS): Bootswatch themes
-- _quarto.yml is the easiest way to change fonts universally (not in scss file)
+- _quarto.yml is the easiest way to change fonts universally (not in scss file). can also set different fonts for other types of headers
+- set blog posts to draft mode if needed, different draft types (shareable URL, etc)

@@ -1,0 +1,10 @@
+---
+title: "My first blog post"
+description: "description text"
+author: 
+  - name: Danielle Ferraro
+date: 2026-05-13
+categories: [rladies+, r]
+
+---
+

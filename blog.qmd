@@ -1,4 +1,8 @@
 ---
 title: "Blog"
-format: html
+listing:
+    contents: blog
+    type: grid
+    sort: "date desc"
+    categories: true
 ---
