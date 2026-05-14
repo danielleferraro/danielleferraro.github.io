@@ -1,0 +1,6 @@
+---
+title: "notes"
+---
+
+- don't change index.qmd name
+- _quarto.yml - structure and metadata of website
